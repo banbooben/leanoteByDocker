@@ -1,0 +1,10 @@
+version: "3"
+services: 
+    leanote:
+        image: leanote:latest
+        volumes: 
+            - ./data/leanote/db:/data/db
+            - ./data/leanote/conf:/leanote/conf
+            - ./data/leanote/files:/leanote/files
+        ports: 
+            - 9000:9000
