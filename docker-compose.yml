@@ -3,8 +3,8 @@ services:
     leanote:
         image: leanote:latest
         volumes: 
-            - ./data/leanote/db:/data/db
-            - ./data/leanote/conf:/leanote/conf
-            - ./data/leanote/files:/leanote/files
+            - ./data/db:/data/db
+#            - ./data/leanote:/data/leanote/conf
+            - ./data/script:/script
         ports: 
             - 9000:9000

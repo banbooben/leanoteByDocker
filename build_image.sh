@@ -2,8 +2,8 @@
  # @Author: shangyameng
  # @Email: shangyameng@aliyun.com
  # @Date: 2020-05-22 15:22:47
- # @LastEditTime: 2020-05-24 12:41:39
- # @FilePath: /leanote/build_image.sh
+ # @LastEditTime: 2020-05-25 23:24:08
+ # @FilePath: /leanoteByDocker/build_image.sh
 ### 
 
 printf "\n================ Start build leanote:latest image ================\n\n"
